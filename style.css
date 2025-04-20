@@ -1,0 +1,181 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.head{
+    height: 50px;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 30px;
+    opacity: 0.50;
+}
+.mode{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.mode p:first-of-type{
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.50;
+}
+.mode p:nth-child(2){
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.75;
+}
+img[img2]{
+    display: none;
+}
+img[img2].visible{
+    display: block;
+}
+img[img1].unvisible{
+    display: none;
+}
+.main{
+    width: 90%;
+    max-width: 600px;
+}
+.search{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 5px;
+    padding: 20px;
+}
+.search-bar{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-bar input:first-of-type{
+    all: unset;
+    padding-left: 20px;
+}
+.search-bar img:first-of-type{
+    height: 20px;
+    width: 20px;
+}
+.search button:first-of-type{
+    all: unset;
+    height: 30px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.content{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px gray;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.left{
+    padding: 20px;
+    width: 100px;
+    position: relative;
+}
+.left img:first-of-type{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    left: 50px;
+}
+.right{
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name p:first-of-type{
+    font-size: 20px;
+    font-weight: 600;
+}
+.name p:last-of-type{
+    font-size: 13px;
+    color: gray;
+}
+.bio{
+    color: gray;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color:azure;
+    border-radius: 5px;
+    padding: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card p:first-of-type{
+    color: gray;
+}
+.contacts{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px 40px;
+}
+.contact{
+    color: gray;
+}
+.white{
+    color: white !important;
+}
+.dark-mode{
+    background-color: #121212;
+}
+.light-blue{
+    color: lightblue;
+}
+p[para2]{
+    display: none;
+}
+p[para1]{
+    display: block;
+}
+p[para2].visible{
+    display: block;
+}
+p[para1].unvisible{
+    display: none;
+}

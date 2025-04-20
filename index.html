@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=League+Spartan:wght@100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="head">
+            <h1>DevDetective</h1>
+           <div class="mode">
+            <p para1>Dark</p>
+            <p para2>Light</p>
+            <img src="/assets/images/moon-icon.svg" alt="" id="mode-icon" img1>
+            <img src="/assets/images/sun-icon.svg" alt="" img2>
+           </div>
+        </div>
+        <div class="main">
+            <!-- search -->
+            <div class="search">
+               <div class="search-bar">
+                <img src="/assets/images/search-icon.svg" alt="">
+                <input type="text" placeholder="Enter your GitHub username..." data-input>
+               </div>
+               <button data-inputBtn>Search</button>
+            </div>
+            <!-- content -->
+            <div class="content">
+                <div class="left">
+                    <img src="/assets/android-chrome-192x192.png" data-avtar>
+                </div>
+                <div class="right">
+                    <div class="name">
+                        <p data-name>Kunal vashistha</p>
+                        <p data-date>Joined 05 May 2020</p>
+                    </div>
+                    <a target="_blank" data-link>@Kunalvashistha</a>
+                    <p class="bio" data-bio>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fuga earum deleniti assumenda, exercitationem ullam.
+                    </p>
+                    <div class="cards">
+                        <!-- card1 -->
+                         <div class="card">
+                            <p>Repos</p>
+                            <p data-repos>11</p>
+                         </div>
+                         <!-- card2 -->
+                          <div class="card">
+                            <p>Followres</p>
+                            <p data-followres>3554</p>
+                          </div>
+                          <!-- card3 -->
+                           <div class="card">
+                            <p>Following</p>
+                            <p data-following>1</p>
+                           </div>
+                    </div>
+                    <!-- contact -->
+                     <div class="contacts">
+                        <div class="contact">
+                            <img src="/assets/images/location-icon.svg" alt="">
+                            <p data-location>New Delhi</p>
+                        </div>
+                        <div class="contact">
+                            <img src="/assets/images/website-icon.svg" alt="">
+                            <p data-email>Not Available</p>
+                        </div>
+                        <div class="contact">
+                            <img src="/assets/images/twitter-icon.svg" alt="">
+                            <p data-twitter>Not Available</p>
+                        </div>
+                        <div class="contact">
+                            <img src="/assets/images/company-icon.svg" alt="">
+                            <p data-company>Not Available</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
